@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Wang Yongqing</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="module" src="js/main-app.js"></script>
+</head>
+<body class="w3-content" style="max-width:100%" height="100%">
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-collapse w3-animate-left" style="z-index:3;width:300px;" id="mySidebar">
+            <div class="w3-container" id="mySidebar-container">
+                <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-medium w3-hover-grey" title="close menu">
+                    <i class="fa fa-remove fa-lg" id="mySidebar-close-icon"></i>
+                </a>
+            </div>
+            <img src="https://64.media.tumblr.com/316efb2f7a8afdc954a9ccdca1b9cdb1/98230c85d7514c2d-48/s640x960/47cb49e88ec12feae919fc0cc5aa3be9172edb03.gif" style="width:100%"><br>
+            <div class="w3-container sidebartitle">
+                <h4><b>&#60Yongqing's Web Space/&#62</b></h4>
+                <i>Cybersecurity Student</i>
+            </div>
+
+        </div>
+        <div class="w3-bar-block">
+            <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a>
+            <a href="#awards" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>CERTIFICATIONS & AWARDS</a>
+            <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PROJECTS</a>
+        </div>
+        <div>
+            <hr style="border-color:grey">
+            <div class="w3-panel w3-large" id="socials">
+                <a style="font-size:15px;"><i class="fa fas-regular fa-envelope w3-hover-opacity"></i> lookforyongqing@gmail.com</a>
+                <br />
+                <a style="font-size:15px;" href="https://www.linkedin.com/in/yongqing-wang-017991211/"><i class="fa fa-linkedin w3-hover-opacity"></i> LinkedIn</a>
+                <!--<i class="fa fa-github w3-hover-opacity"></i>-->
+            </div>
+        </div>
+    </nav>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main w3-black" style="margin-left:300px" id="page-content">
+        <!-- Header -->
+        <header id="portfolio">
+            <a href="#">
+                <img src="/portfolio/assets/retrobluepaper.png" style="width:30px; height:30px;" class="w3-square w3-right w3-margin w3-hide-large w3-hover-opacity">
+                <!-- <h4 class="w3-right w3-margin">Retrobluepaper</h4> -->
+            </a>
+            <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+        </header>
+        <!-- Introduction -->
+        <div class="w3-container" id="intro">
+            <div class="col-md-6 text-center" id="headvideo">
+                <iframe src="https://www.youtube.com/embed/ras0W37fTTQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!--<img src="/assets/pochita.png?w=640" alt="Me" style="width:100%">-->
+            </div>
+            <div class="col-md-6" id="headtitle">
+                <h1>Obsessed, Passionate, Driven.</h1>
+                <p>
+                    Welcome to Yongqing's Portfolio.
+                    <br>
+                    Click on the video to watch a quick introduction before scrolling!
+                </p>
+                <button>Download Resume</button>
+            </div>
+        </div>
+
+        <div class="w3-row-padding" id="about">
+            <div class="col-md-12">
+                <br />
+                <h3><b>About Me</b></h3>
+                <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt 
+                    sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus 
+                    vitae, ultricies congue gravida diam non fringilla.
+                </p>
+            </div>
+        </div>
+        <br />
+        <!--Certification-->
+        <div class="w3-row-padding">
+            <div class="col-md-12" id="awards">
+                <a href="https://www.credly.com/badges/4bb79027-d46d-4fad-8ae4-b839eebad998/public_url">
+                    <img src="https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Cloud-Practitioner_badge.634f8a21af2e0e956ed8905a72366146ba22b74c.png" 
+                    alt="AWS Certfied Cloud Practitioner" height="80px" width="80px" />
+                </a>
+            </div>
+        </div>
+        <hr />
+        
+        <!-- Projects -->
+        <div class="col-md-12" id="projects">
+            <h3><b>Projects</b></h3>
+            <div class="w3-container" id="projects-container" name="0">
+                <div class="col-sm-3" id="projects-img-container">
+                    <img src="/assets/pochita.png" >
+                </div>
+                <div class="col-sm-9 col" id="projects-text-container">
+                    <div class="row-sm-7" id="projects-header">
+                        <h4><b>Header Test</b></h4>
+                    </div>
+                    <div class="row-sm-7" id="projects-paragraph">
+                        <p>Praesent tincidunt sed tellus ut rutrum. 
+                            Sed vitae justo condimentum, porta lectus vitae, 
+                            ultricies congue gravida diam non fringilla.
+                        </p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <script type="module">
+            import { populateCards, changePage} from './js/main-app.js';
+            // Run the populateCards function onload
+            window.onload = () => {
+              populateCards();
+              document.querySelectorAll("#projects-container").forEach(function(el){
+                el.addEventListener("click", function(e){
+                    changePage(el);
+                })
+              })
+              
+            };
+        </script>
+        <!-- Pagination -->
+        <!-- <div class="w3-center w3-padding-32">
+            <div class="w3-bar">
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+                <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+            </div>
+        </div> -->
+    
+</body>
+</html>

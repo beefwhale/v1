@@ -1,0 +1,81 @@
+﻿html {
+    background-color: black;
+    min-width: 200px;
+}
+body {
+    width: 80%;
+    height: 100vh;
+    margin:0;
+}
+body, h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Inter', sans-serif;
+}
+#carousel-outer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.carousel-inner{
+    width: 100%;
+    height: auto;
+    max-height: 280px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    max-height: 280px;
+    object-fit: contain;
+}
+#projects-content{
+    background-color: black;
+    display:block;
+    justify-content: left;
+    align-items: top;
+    height: 100%;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+h1{
+    margin:0px;
+}
+button {
+    background-color: dodgerblue;
+    padding: 8px;
+    max-width: 150px;
+    border-radius: 8px;
+}
+@media only screen and (max-width: 1000px) {
+    body{
+        width: 100%;
+    }
+    h1 {
+        margin: 0px;
+        padding-top: 16px;
+    }
+    #content-container, #other-info-container{
+        width: 100%;
+    }
+}
+p{
+    margin: 0;
+    padding-top: 4px;
+    padding-bottom: 8px;
+}
+h4,h2,span{
+    margin-top: 10px;
+}
+h5{
+    margin:0;
+}
+hr {
+    margin: 16px;
+}
+footer{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+

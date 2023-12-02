@@ -1,0 +1,52 @@
+{
+    "data":[
+        {
+            "id":1,
+            "images":["retrobluepaper.png","pochita.png","ashorthike.jpg"],
+            "video":"https://www.youtube.com/watch?v=ras0W37fTTQ",
+            "title":"This is a Record 1's Title",
+            "description":"this is Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam arcu nisi, consequat in metus non, molestie fringilla quam. Vestibulum vel iaculis elit. Nulla eget orci quis justo pharetra dignissim. Aenean hendrerit at eros et fringilla. Integer elit dui, eleifend ac vestibulum ut, bibendum eu mi.",
+            "flairs":["hackathon", "assignment"],
+            "date":"01 Jan 2023",
+            "about":"Curabitur malesuada posuere justo, ut bibendum massa. Sed mollis semper neque sit amet tempus. Pellentesque tincidunt quam feugiat lacus dignissim placerat. Ut ac felis a odio semper blandit. Nulla ullamcorper ac urna eget facilisis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum posuere imperdiet libero, non vulputate tortor sagittis fringilla. Donec viverra mi sit amet tellus dignissim consequat. Morbi eleifend justo in lectus feugiat euismod. Duis at bibendum tellus. Phasellus sed eleifend ligula, nec mattis ex. Curabitur feugiat gravida pretium.",
+            "roles":"Curabitur malesuada posuere justo, ut bibendum massa. Sed mollis semper neque sit amet tempus. Pellentesque tincidunt quam feugiat lacus dignissim placerat. Ut ac felis a odio semper blandit. Nulla ullamcorper ac urna eget facilisis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum posuere imperdiet libero, non vulputate tortor sagittis fringilla. Donec viverra mi sit amet tellus dignissim consequat. Morbi eleifend justo in lectus feugiat euismod. Duis at bibendum tellus. Phasellus sed eleifend ligula, nec mattis ex. Curabitur feugiat gravida pretium.",
+            "learned":"Curabitur malesuada posuere justo, ut bibendum massa. Sed mollis semper neque sit amet tempus. Pellentesque tincidunt quam feugiat lacus dignissim placerat. Ut ac felis a odio semper blandit. Nulla ullamcorper ac urna eget facilisis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum posuere imperdiet libero, non vulputate tortor sagittis fringilla. Donec viverra mi sit amet tellus dignissim consequat. Morbi eleifend justo in lectus feugiat euismod. Duis at bibendum tellus. Phasellus sed eleifend ligula, nec mattis ex. Curabitur feugiat gravida pretium.",
+            "members":["John", "Jane", "Joe"],
+            "achievements":"",
+            "technologies":[],
+            "links":[{"github":"something.com"},{"devpost":"something.com"}]
+        },
+        {
+            "id":2,
+            "images":["ashorthike.jpg","retrobluepaper.png","pochita.png"],
+            "video":"https://www.youtube.com/watch?v=ras0W37fTTQ",
+            "title":"This is a Record 2's Title",
+            "description":"this is Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam arcu nisi, consequat in metus non, molestie fringilla quam. Vestibulum vel iaculis elit. Nulla eget orci quis justo pharetra dignissim. Aenean hendrerit at eros et fringilla. Integer elit dui, eleifend ac vestibulum ut, bibendum eu mi.",
+            "flairs":["hackathon", "assignment"],
+            "date":"01 Jan 2023",
+            "about":"Curabitur malesuada posuere justo, ut bibendum massa. Sed mollis semper neque sit amet tempus. Pellentesque tincidunt quam feugiat lacus dignissim placerat. Ut ac felis a odio semper blandit. Nulla ullamcorper ac urna eget facilisis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum posuere imperdiet libero, non vulputate tortor sagittis fringilla. Donec viverra mi sit amet tellus dignissim consequat. Morbi eleifend justo in lectus feugiat euismod. Duis at bibendum tellus. Phasellus sed eleifend ligula, nec mattis ex. Curabitur feugiat gravida pretium.",
+            "roles":"Curabitur malesuada posuere justo, ut bibendum massa. Sed mollis semper neque sit amet tempus. Pellentesque tincidunt quam feugiat lacus dignissim placerat. Ut ac felis a odio semper blandit. Nulla ullamcorper ac urna eget facilisis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum posuere imperdiet libero, non vulputate tortor sagittis fringilla. Donec viverra mi sit amet tellus dignissim consequat. Morbi eleifend justo in lectus feugiat euismod. Duis at bibendum tellus. Phasellus sed eleifend ligula, nec mattis ex. Curabitur feugiat gravida pretium.",
+            "learned":"Curabitur malesuada posuere justo, ut bibendum massa. Sed mollis semper neque sit amet tempus. Pellentesque tincidunt quam feugiat lacus dignissim placerat. Ut ac felis a odio semper blandit. Nulla ullamcorper ac urna eget facilisis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum posuere imperdiet libero, non vulputate tortor sagittis fringilla. Donec viverra mi sit amet tellus dignissim consequat. Morbi eleifend justo in lectus feugiat euismod. Duis at bibendum tellus. Phasellus sed eleifend ligula, nec mattis ex. Curabitur feugiat gravida pretium.",
+            "members":["John", "Jane", "Joe"],
+            "achievements":"Grade: A",
+            "technologies":["Java", "React", "Angular"],
+            "links":[{"github":"something.com"},{"devpost":"something.com"}]
+        },
+        {
+            "id":3,
+            "images":["pochita.png","retrobluepaper.png","ashorthike.jpg"],
+            "video":"https://www.youtube.com/watch?v=ras0W37fTTQ",
+            "title":"This is a Record 3's Title",
+            "description":"this is Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam arcu nisi, consequat in metus non, molestie fringilla quam. Vestibulum vel iaculis elit. Nulla eget orci quis justo pharetra dignissim. Aenean hendrerit at eros et fringilla. Integer elit dui, eleifend ac vestibulum ut, bibendum eu mi.",
+            "flairs":["hackathon", "assignment"],
+            "date":"01 Jan 2023",
+            "about":"Curabitur malesuada posuere justo, ut bibendum massa. Sed mollis semper neque sit amet tempus. Pellentesque tincidunt quam feugiat lacus dignissim placerat. Ut ac felis a odio semper blandit. Nulla ullamcorper ac urna eget facilisis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum posuere imperdiet libero, non vulputate tortor sagittis fringilla. Donec viverra mi sit amet tellus dignissim consequat. Morbi eleifend justo in lectus feugiat euismod. Duis at bibendum tellus. Phasellus sed eleifend ligula, nec mattis ex. Curabitur feugiat gravida pretium.",
+            "roles":"Curabitur malesuada posuere justo, ut bibendum massa. Sed mollis semper neque sit amet tempus. Pellentesque tincidunt quam feugiat lacus dignissim placerat. Ut ac felis a odio semper blandit. Nulla ullamcorper ac urna eget facilisis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum posuere imperdiet libero, non vulputate tortor sagittis fringilla. Donec viverra mi sit amet tellus dignissim consequat. Morbi eleifend justo in lectus feugiat euismod. Duis at bibendum tellus. Phasellus sed eleifend ligula, nec mattis ex. Curabitur feugiat gravida pretium.",
+            "learned":"Curabitur malesuada posuere justo, ut bibendum massa. Sed mollis semper neque sit amet tempus. Pellentesque tincidunt quam feugiat lacus dignissim placerat. Ut ac felis a odio semper blandit. Nulla ullamcorper ac urna eget facilisis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum posuere imperdiet libero, non vulputate tortor sagittis fringilla. Donec viverra mi sit amet tellus dignissim consequat. Morbi eleifend justo in lectus feugiat euismod. Duis at bibendum tellus. Phasellus sed eleifend ligula, nec mattis ex. Curabitur feugiat gravida pretium.",
+            "members":[],
+            "achievements":"1st Place Winner",
+            "technologies":["Node.js"],
+            "links":[{"github":"something.com"},{"devpost":"something.com"}]
+        }
+    ]
+}
