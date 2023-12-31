@@ -26,9 +26,9 @@ function populateProjectsPage(item){
         const aboutContainer = contentWrapper.querySelector('#about-project-container')
         const rolesContainer = contentWrapper.querySelector('#roles-container')
         const learnedContainer = contentWrapper.querySelector('#learned-container')
-        aboutContainer.children[1].textContent = item.about //header exists before para
-        rolesContainer.children[1].textContent = item.roles
-        learnedContainer.children[1].textContent = item.learned // TODO: replace with list when needed
+        aboutContainer.children[1].innerHTML = (item.about).replace(/\n/g, '<br><br>') //header exists before para
+        rolesContainer.children[1].innerHTML = (item.roles).replace(/\n/g, '<br><br>')
+        learnedContainer.children[1].innerHTML = (item.learned).replace(/\n/g, '<br><br>') // TODO: replace with list when needed
         //Side Content (Members and Links)
         const otherInfoWrapper = document.getElementById('other-info-container')
         const membersContainer = otherInfoWrapper.querySelector('#members-container')
@@ -77,6 +77,9 @@ function populateProjectsPage(item){
                 linksContainer.appendChild(node)
                 linksContainer.appendChild(node2)
             })
+        }
+        else{
+            linksContainer.children[0].innerHTML = ''
         }
     }
 }
