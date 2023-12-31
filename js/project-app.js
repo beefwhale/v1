@@ -1,4 +1,4 @@
-import jsonData from '../JSON/sample.json' assert {type: 'json'};
+import jsonData from '../JSON/data.json' assert {type: 'json'};
 export function getDataPassed(){
     const queryParams = new URLSearchParams(window.location.search);
     // Retrieve the value of the 'id' parameter from the url
@@ -16,7 +16,10 @@ export function getDataPassed(){
 function populateProjectsPage(item){
     if (item != {}){
         //Carousel
-        item.images.forEach(cloneCarouselImages)
+        let videoURL  = item.video
+        item.images.forEach(function(item, index){
+            cloneCarouselImages(item, index, videoURL)
+        })
         //Title & Date
         const titleWrapper = document.getElementById('title-container')
         titleWrapper.children[0].children[0].textContent = item.title
@@ -83,19 +86,39 @@ function populateProjectsPage(item){
         }
     }
 }
-function cloneCarouselImages(item, index, arr){
+function cloneCarouselImages(item, index, videoURL){
     const carouselOuter = document.getElementById('carousel-outer')
     const carouselInner  = carouselOuter.querySelector('.carousel-inner')
     var carouselContainer = carouselInner.querySelector('.carousel-item')
     let imagesPrefix = './assets/'
+    //after first video
     if(index > 0){
         carouselContainer = carouselContainer.cloneNode(true)
         carouselContainer.setAttribute('class','carousel-item')
-    }
-    //Carousel Image
-    carouselContainer.children[0].src = imagesPrefix+item
-    if(index >0){
+        //remove iframe and add image when video is added, else full of duplicates
+        if(videoURL != "" || videoURL != null){
+            carouselContainer.innerHTML = ''
+            const imgObj = document.createElement('img');
+            carouselContainer.appendChild(imgObj);
+        }
+        carouselContainer.children[0].src = imagesPrefix+item
         carouselInner.appendChild(carouselContainer)
     }
-    console.log(carouselInner)
+    // youtube video if available
+    else if(index == 0 && (videoURL != '' || videoURL != null)){ 
+        carouselContainer.innerHTML = ''
+        const iframeObj = document.createElement('iframe');
+        iframeObj.src = videoURL +'?autoplay=1';  // Set the URL                 
+        iframeObj.frameborder = '0';
+        iframeObj.allowfullscreen = true;
+        iframeObj.autoplay = true;
+        carouselContainer.appendChild(iframeObj)
+
+        //pause auto scroll when theres a video
+        $('#carousel-outer').carousel('pause');
+    }
+    //first picture, no video
+    else if(index == 0){
+        carouselContainer.children[0].src = imagesPrefix+item
+    }
 }

@@ -1,5 +1,5 @@
 
-import jsonData from '../JSON/sample.json' assert {type: 'json'};
+import jsonData from '../JSON/data.json' assert {type: 'json'};
 export function populateCards(){
     const jsonDataArray = jsonData.data;
     jsonDataArray.sort((a, b) => parseFloat(a.id) - parseFloat(b.id));
