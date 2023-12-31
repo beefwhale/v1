@@ -108,7 +108,7 @@ function cloneCarouselImages(item, index, videoURL){
     else if(index == 0 && (videoURL != '' || videoURL != null)){ 
         carouselContainer.innerHTML = ''
         const iframeObj = document.createElement('iframe');
-        iframeObj.src = videoURL +'?autoplay=1';  // Set the URL                 
+        iframeObj.src = videoURL;  // Set the URL                 
         iframeObj.frameborder = '0';
         iframeObj.allowfullscreen = true;
         iframeObj.autoplay = true;

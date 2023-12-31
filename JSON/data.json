@@ -88,7 +88,7 @@
         {
             "id":6,
             "images":["EthicalHacking/EthicalHacking_Image.png","EthicalHacking/EthicalHacking_Image_01.png","EthicalHacking/EthicalHacking_Image_02.png","EthicalHacking/EthicalHacking_Image_03.png","EthicalHacking/EthicalHacking_Image_04.png","EthicalHacking/EthicalHacking_Image_05.png","EthicalHacking/EthicalHacking_Image_06.png","EthicalHacking/EthicalHacking_Image_07.png","EthicalHacking/EthicalHacking_Image_08.png"],
-            "video":"hhttps://www.youtube.com/embed/_7C8T74Rfio?si=T1EqvicaCCDZZgyb",
+            "video":"https://www.youtube.com/embed/_7C8T74Rfio?si=T1EqvicaCCDZZgyb",
             "title":"Exploitation & Post Exploitation leveraging on Log4shell",
             "description":"An ethical hacking project where we demonstrated a possible use case scenario with the Log4j vulnerability. Building the scenario from the ground up, we set up realistic virtual test environments and performed skills from enumeration to post exploitation while making plausible assumptions along the way.",
             "flairs":["ethical hacking"],
