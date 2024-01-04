@@ -119,6 +119,7 @@ function cloneCarouselImages(item, index, videoURL){
     }
     //first picture, no video
     else{
+        console.log('first')
         carouselContainer.children[0].src = imagesPrefix+item
     }
 }
