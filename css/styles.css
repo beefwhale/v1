@@ -15,6 +15,10 @@ body, h1, h2, h3, h4, h5, h6, p {
 #mySidebar-container{
     padding: 12px;
 }
+#credits{
+    font-size: smaller;
+    justify-content: flex-end;
+}
 #projects-container{
     display:block;
     justify-content: left;
