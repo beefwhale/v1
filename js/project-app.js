@@ -118,7 +118,7 @@ function cloneCarouselImages(item, index, videoURL){
         $('#carousel-outer').carousel('pause');
     }
     //first picture, no video
-    else if(index == 0){
+    else{
         carouselContainer.children[0].src = imagesPrefix+item
     }
 }
