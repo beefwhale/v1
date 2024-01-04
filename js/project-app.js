@@ -105,7 +105,7 @@ function cloneCarouselImages(item, index, videoURL){
         carouselInner.appendChild(carouselContainer)
     }
     // youtube video if available
-    else if(index == 0 && (videoURL != '' || videoURL != null)){ 
+    else if(index == 0 && (videoURL != '' && videoURL != null)){ 
         carouselContainer.innerHTML = ''
         const iframeObj = document.createElement('iframe');
         iframeObj.src = videoURL;  // Set the URL                 
