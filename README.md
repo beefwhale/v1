@@ -1,2 +1,2 @@
 # Welcome to Yongqing's portfolio!
-https://beefwhale.github.io/
+https://beefwhale.github.io/v1
